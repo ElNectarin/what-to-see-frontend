@@ -1,0 +1,22 @@
+.main_button {
+  height: 70px;
+//   width: 300px;
+    width: calc(100vw / 2);
+  background: #4bb4e6;
+  font-family: "Roboto", Courier, monospace;
+  text-transform: lowercase;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  color: #fff;
+  text-shadow: 1px 2px #272020;
+  font-weight: 800;
+  transition: 0.1s linear;
+
+  &:hover {
+    height: 75px;
+    // width: 305px;
+    width: calc(100vw / 1.8);
+    transition: 0.1s linear;
+    font-size: 1.4rem;
+  }
+}

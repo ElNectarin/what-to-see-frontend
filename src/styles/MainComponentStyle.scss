@@ -1,0 +1,18 @@
+.main_component_container {
+    height: 95%;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #e1e1e1;
+}
+
+.loadDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    height: 95%;
+    background: #e1e1e1;
+}

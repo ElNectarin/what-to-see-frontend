@@ -1,0 +1,106 @@
+.film_description_container {
+  width: 70vw;
+  height: 55vh;
+  border: 1px solid #000;
+  border-radius: 5px;
+  display: flex;
+}
+
+.film_description_poster_container {
+  margin: 10px 0px 0px 10px;
+
+  img {
+    border-radius: 10px;
+  }
+}
+
+.film_description_director {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  h3 {
+    font-family: "Roboto", Courier, monospace;
+    font-weight: 300;
+    font-size: 0.9rem;
+    @media screen and (max-width: 1024px) {
+      font-size: 0.7rem;
+    }
+  }
+}
+
+.film_description_name_container {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  overflow: hidden;
+}
+
+.film_description_name {
+  display: inline-flex;
+  justify-content: center;
+  h1 {
+    font-family: "Roboto", Courier, monospace;
+    font-weight: bold;
+    font-size: 3rem;
+    text-transform: uppercase;
+
+    @media screen and (max-width: 768px) {
+      font-size: 1.5rem;
+    }
+
+    @media screen and (max-width: 1024px) {
+      font-size: 2rem;
+    }
+  }
+}
+
+.film_description_text {
+  display: inline-flex;
+  flex-direction: column;
+  flex: 2;
+  align-items: center;
+  justify-content: center;
+  span {
+    font-family: "Roboto", Courier, monospace;
+    font-weight: 300;
+    font-size: 1.4rem;
+
+    @media screen and (max-width: 768px) {
+      font-size: 0.8rem;
+    }
+
+    @media screen and (max-width: 1024px) {
+      font-size: 1rem;
+    }
+  }
+}
+
+.film_description_characteristic {
+  width: 100%;
+  height: 15vh;
+  margin-top: 20px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+
+  h3 {
+    font-family: "Roboto", Courier, monospace;
+    font-weight: 300;
+    font-size: 0.9rem;
+
+    @media screen and (max-width: 1024px) {
+      font-size: 0.7rem;
+    }
+  }
+}
+
+.film_description_actors {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+}
